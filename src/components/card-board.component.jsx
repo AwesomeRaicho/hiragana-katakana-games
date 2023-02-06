@@ -55,7 +55,8 @@ const CardBoard = () => {
             }
 
         }
-    },[compare]);
+    },[compare, status, setStatus]);
+    
     return (
         <div className="cards-container">
 
