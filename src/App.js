@@ -8,13 +8,12 @@ import CardBoard from './components/card-board.component';
 function App() {
   return (
     <div className="app-container">
-        <CardBoard />
       <BrowserRouter>
+      <GameMenu />
         <Routes>
           <Route path="/" element={<CardBoard />} />
         </Routes>
       </BrowserRouter>
-      <GameMenu />
     
     </div>
   );
