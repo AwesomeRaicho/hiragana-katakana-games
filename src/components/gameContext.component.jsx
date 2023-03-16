@@ -23,6 +23,8 @@ export const GameProvider = ({children}) => {
         };
         setStatus(newStatus)
     },[cards]);
+
+    console.log(pairs, vowel)
     
     return (
         <GameContext.Provider value={{
